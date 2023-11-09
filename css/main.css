@@ -1,0 +1,74 @@
+.container
+{
+    padding-top: 150px;
+    /* text-align: center; */
+}
+.container .form
+{
+  text-align: center;
+}
+.container .form,
+.container .repos
+{
+    background-color: #eee;
+    padding: 30px;
+    margin-bottom: 50px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+.container .form input:nth-child(1),
+.container .form input:nth-child(2)
+{
+    background-color: red;
+    padding: 20px;
+    border: none;
+    margin-right: 20px;
+    margin-bottom: 10px;
+    color: white;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
+.container .form input:nth-child(1)
+{
+  font-size: 20px;
+  background-color: white;
+  color: black;
+}
+.container .form input:nth-child(1):focus
+{
+  border: none;
+  outline: none;
+}
+.container .form input:nth-child(2)
+{
+  cursor: pointer;
+  font-weight: bold;
+}
+.repos .repositres
+{
+  display: flex;
+  justify-content: space-between;
+  background-color: white;
+  padding: 10px;
+  margin: 5px;
+  font-size: 18px;
+}
+.repos .repositres a
+{
+  padding: 5px 30px;
+  background-color: #e91e63;
+  border-radius: 5px;
+  text-decoration: none;
+  color: white;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
