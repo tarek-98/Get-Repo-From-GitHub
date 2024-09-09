@@ -16,7 +16,7 @@ add.onclick = function()
 
 function addrepos() 
 {
-  fetch(`http://api.github.com/users/${input.value}/repos`)
+  fetch(`https://api.github.com/users/${input.value}/repos`)
   .then((result) => 
   {
     let data = result.json();
